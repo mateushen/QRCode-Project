@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: #202020;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #5f9ea0;
+  padding: 1rem;
+  width: 20rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: #333
+}
+
+.subtitle {
+  font-size: 0.75rem;
+  color: #666;
+  margin: 0.5rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.input {
+  padding: 1rem;
+  border: 0.14rem solid #333;
+  outline: none;
+  margin: 0.5rem 0;
+  border-radius: 0.25rem;
+  color: #333;
+  background-color: #fff;
+  font-size: 0.7rem;
+  width: 70%;
+}
+
+.qrcode {
+  margin: 1rem 0;
+  background-color: #fff;
+  width: 70%;
+  border: 0.14rem solid #333;
+  border-radius: 0.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.btn-download {
+  border: none;
+  background-color: #333;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-size: 0.7rem;
+  text-decoration: none;
+  margin-top: 1rem;
+}
